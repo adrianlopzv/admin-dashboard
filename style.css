@@ -504,4 +504,21 @@ main .recent-orders a {
     background: var(--color-success);
 }
 
+.right .sales-analytics .add-product {
+    background-color: transparent;
+    border: 2px dashed var(--color-primary);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.right .sales-analytics .add-product div {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.right .sales-analytics .add-product div h3 {
+    font-weight: 600;
+}
